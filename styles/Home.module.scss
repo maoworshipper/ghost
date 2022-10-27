@@ -14,8 +14,9 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1.25rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -28,7 +29,14 @@
   flex-grow: 1;
 }
 
-.title a {
+.logout {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  color: #0070f3;
+}
+
+.title span {
   color: #0070f3;
   text-decoration: none;
 }
@@ -51,7 +59,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
