@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Plans = () => {
+const Plans = () => {
   return (
     <div>planes</div>
   )
 }
+
+export default Plans;

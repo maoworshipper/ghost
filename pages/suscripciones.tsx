@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Suscriptions = () => {
+const Suscriptions = () => {
   return (
     <div>suscripciones</div>
   )
 }
+
+export default Suscriptions;
